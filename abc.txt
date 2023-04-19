@@ -1,0 +1,68 @@
+
+assignment-1(Move)
+
+1- cd desktop
+
+2-  mkdir Assignment
+
+3-cd Assignment
+
+4-touch abc.txt def.txt ghi.txt jkl.txt
+
+5-ls
+abc.txt  def.txt  ghi.txt  jkl.txt
+
+6-ls -
+ls: cannot access '-': No such file or directory
+
+7- mv def.txt abc.txt
+
+8-ls
+abc.txt  ghi.txt  jkl.txt
+
+
+(sorting-2)
+
+9- cat jkl.txt
+A
+B
+C
+D
+E
+A
+A
+B
+C
+
+10-sort jkl.txt
+
+A
+A
+A
+B
+B
+C
+C
+D
+E
+11-sort jkl.txt
+
+A
+A
+A
+B
+B
+C
+C
+D
+E
+
+
+12-sort jkl.txt | uniq
+
+A
+B
+C
+D
+E
+13-
